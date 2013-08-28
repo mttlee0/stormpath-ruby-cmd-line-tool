@@ -4,7 +4,7 @@ This is a command line utility using the Stormpath Ruby SDK to perform the follo
 
 ## Prerequisites
 
-1. Ruby version 1.9.3 or new is installed.
+1. Ruby version 1.9.3 or newer is installed.
 2. Stormpath Ruby SDK is installed. See https://github.com/stormpath/stormpath-sdk-ruby/tree/91a8a257ae404f302a3572049e35d9e914bde3da
 3. A file named __apiKey.properties__ is located in a folder called __.stormpath__ in the local home directory. This will be used to retrieve details on the Stormpath client.
 
