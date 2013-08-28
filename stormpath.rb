@@ -11,6 +11,7 @@ end
 
 # Parses the command line options, outputs help/usage information for the command line utility. Returns an OptionParser object.
 def help(options)
+  # Note: This is not the ideal usage of OptionParser. A limitation of OptionParser is different commands must share the same options. Thor would be a better candidate to handle this use case.
   opt_parser = OptionParser.new do |opt|
     opt.banner = "Usage: stormpath.rb OBJECT ACTION ARGUMENTS"
     opt.separator  ""
